@@ -1,0 +1,16 @@
+{
+	"domain": "file",
+	"service": "FileService",
+	"routes": [
+		{
+			"method": "post",
+			"route": "/upload_image",
+			"action": "uploadImage"
+		},
+		{
+			"method": "post",
+			"route": "/upload_image_from_app",
+			"action": "uploadImageFromApp"
+		}
+	]
+}

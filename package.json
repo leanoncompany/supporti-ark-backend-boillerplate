@@ -1,0 +1,31 @@
+{
+	"name": "qillie-core-web-backend-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"start": "pm2 start build-pre/index.js --time --restart-delay=5000 --name 'qillie-core-web-backend' --watch --ignore-watch='assets/temp_db/* node_modules/*'",
+		"dev": "tsnd src/index.ts",
+		"local": "npx ts-node src/index.ts",
+		"clean": "rm -fr build",
+		"build": "tsc && npm run copy-files",
+		"copy-files": "cp -r src/view/ build-pre/"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@leanoncompany/back-end-core": "^0.0.5",
+		"@types/nodemailer": "^6.4.10",
+		"axios": "^1.6.2",
+		"dotenv": "^16.0.3",
+		"moment": "^2.29.4",
+		"read-excel-file": "^5.7.1",
+		"uuid": "^9.0.1",
+		"xlsx": "^0.18.5"
+	},
+	"devDependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/multer": "^1.4.7",
+		"@types/uuid": "^9.0.7"
+	}
+}

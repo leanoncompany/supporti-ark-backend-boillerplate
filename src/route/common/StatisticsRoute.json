@@ -1,0 +1,11 @@
+{
+	"domain": "statistics",
+	"service": "StatisticsService",
+	"routes": [
+		{
+			"method": "get",
+			"route": "/find_by_range",
+			"action": "getStatistics"
+		}
+	]
+}

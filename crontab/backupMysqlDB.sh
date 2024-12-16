@@ -1,0 +1,1 @@
+curl -X POST "http://localhost:4021/api2/common/backup/mysql"

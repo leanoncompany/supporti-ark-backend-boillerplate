@@ -1,0 +1,16 @@
+{
+	"domain": "notification",
+	"service": "NotificationService",
+	"routes": [
+		{
+			"method": "get",
+			"route": "/find_all",
+			"action": "getNotificationList"
+		},
+		{
+			"method": "put",
+			"route": "/update_read_status",
+			"action": "setNofiticationRead"
+		}
+	]
+}

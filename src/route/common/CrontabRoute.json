@@ -1,0 +1,48 @@
+{
+	"domain": "crontab",
+	"service": "CrontabService",
+	"routes": [
+		{
+			"method": "post",
+			"route": "/create",
+			"action": "create",
+			"comment": "Create (BASIC method)"
+		},
+		{
+			"method": "put",
+			"route": "/update",
+			"action": "update",
+			"comment": "Update (BASIC method)"
+		},
+		{
+			"method": "get",
+			"route": "/find_all",
+			"action": "findAll",
+			"comment": "Find all (BASIC method)"
+		},
+		{
+			"method": "get",
+			"route": "/find_one",
+			"action": "findOne",
+			"comment": "Find one (BASIC method)"
+		},
+		{
+			"method": "put",
+			"route": "/delete",
+			"action": "delete",
+			"comment": "Delete one (BASIC method)"
+		},
+		{
+			"method": "get",
+			"route": "/find_by_key",
+			"action": "findByKey",
+			"comment": "Find by key (BASIC method)"
+		},
+		{
+			"method": "get",
+			"route": "/find_all_by_joined_key",
+			"action": "findAllByJoinedKey",
+			"comment": "Find all by joined key (BASIC method)"
+		}
+	]
+}

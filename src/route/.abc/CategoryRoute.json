@@ -1,0 +1,12 @@
+{
+	"domain": "example",
+	"service": "ExamplePrimaryCategoryService",
+	"routes": [
+		{
+			"method": "get",
+			"route": "/get_category_tree",
+			"action": "getCategoryTree",
+			"comment": "getCategoryTree"
+		}
+	]
+}

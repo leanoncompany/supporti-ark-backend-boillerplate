@@ -1,0 +1,11 @@
+{
+	"domain": "web3",
+	"service": "Web3Service",
+	"routes": [
+		{
+			"method": "post",
+			"route": "/create",
+			"action": "createWeb3Wallet"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"domain": "alimtalk",
+	"service": "AlimtalkService",
+	"routes": [
+		{
+			"method": "post",
+			"route": "/send_phone_auth",
+			"action": "sendPhoneAuth"
+		},
+		{
+			"method": "post",
+			"route": "/validate_phone_auth",
+			"action": "validatePhoneAuth"
+		}
+	]
+}

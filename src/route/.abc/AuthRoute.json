@@ -1,0 +1,72 @@
+{
+	"domain": "example",
+	"service": "ExampleMemberService",
+	"routes": [
+		{
+			"method": "get",
+			"route": "/get_user_name_by_phone_number",
+			"action": "getUserNameByPhoneNumber",
+			"comment": "getUserNameByPhoneNumber"
+		},
+		{
+			"method": "post",
+			"route": "/sign_in/local",
+			"action": "signIn",
+			"comment": "로그인, 입력값: {}, 출력값: {} V"
+		},
+		{
+			"method": "post",
+			"route": "/sign_up/local",
+			"action": "signUp",
+			"comment": "Sign up V"
+		},
+		{
+			"method": "post",
+			"route": "/send_phone_auth",
+			"action": "sendPhoneAuth",
+			"comment": "send phone auth V"
+		},
+		{
+			"method": "post",
+			"route": "/validate_phone_auth",
+			"action": "validatePhoneAuth",
+			"comment": "Validate phone auth V"
+		},
+		{
+			"method": "get",
+			"route": "/double_check_username",
+			"action": "doubleCheckUserName",
+			"comment": "Double check user name V"
+		},
+		{
+			"method": "post",
+			"route": "/find/user_name",
+			"action": "findUserNameSuccessAction",
+			"comment": "find UserName Success Action"
+		},
+		{
+			"method": "post",
+			"route": "/find/password/validate",
+			"action": "validateFindPasswordAction",
+			"comment": "Validate"
+		},
+		{
+			"method": "post",
+			"route": "/find/password/success",
+			"action": "findPasswordSuccessAction",
+			"comment": "Find password success"
+		},
+		{
+			"method": "get",
+			"route": "/double_check_phone_number",
+			"action": "isPhoneNumberUsed",
+			"comment": "isPhoneNumberUsed"
+		},
+		{
+			"method": "get",
+			"route": "/profile",
+			"action": "getProfile",
+			"comment": "getProfile"
+		}
+	]
+}

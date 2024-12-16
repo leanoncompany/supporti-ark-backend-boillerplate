@@ -1,0 +1,5 @@
+{
+	"domain": "example",
+	"service": "ExampleService",
+	"routes": []
+}

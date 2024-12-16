@@ -1,0 +1,11 @@
+{
+	"domain": "model",
+	"service": "ModelService",
+	"routes": [
+		{
+			"method": "get",
+			"route": "/find_one",
+			"action": "getModelConfig"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"domain": "example",
+	"service": "ExampleBoardService",
+	"routes": [
+		{
+			"method": "get",
+			"route": "/find_all_top_fixed",
+			"action": "findAllTopfixed",
+			"comment": "Find all topfixed (BASIC METHOD)"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"domain": "backup",
+	"service": "BackupService",
+	"routes": [
+		{
+			"method": "post",
+			"route": "/mysql",
+			"action": "backupMySqlDatabase"
+		}
+	]
+}

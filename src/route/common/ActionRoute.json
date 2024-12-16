@@ -1,0 +1,11 @@
+{
+	"domain": "action",
+	"service": "ActionService",
+	"routes": [
+		{
+			"method": "get",
+			"route": "/get_action_list",
+			"action": "getActionList"
+		}
+	]
+}
